@@ -1,0 +1,8 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: test_1+1
+    description: "."
+
+run:
+    steps:
+        - lava-test-case test1 --shell python test_demo.py
