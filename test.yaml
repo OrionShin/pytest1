@@ -5,4 +5,4 @@ metadata:
 
 run:
     steps:
-        - lava-test-case test1 --shell python test_demo.py
+        - lava-test-case test1 --shell python3 test_demo.py
