@@ -5,4 +5,6 @@ metadata:
 
 run:
     steps:
-        - lava-test-case test1 --shell ./dist/test_demo
+        - lava-test-case test1 --shell auto.sh
+        - lava-test-case test2 python test_demo.py
+        - lava-test-case test3 python hello.py
