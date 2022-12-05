@@ -5,7 +5,4 @@ metadata:
 
 run:
     steps:
-        - lava-test-case test1 --shell apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
-        - lava-test-case test2 --shell wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
-        - lava-test-case test3 --shell tar -xf Python-3.7.3.tar.xz
-        - lava-test-case test3 --shell python3 test_demo.py
+        - lava-test-case test1 --shell ./dist/test_demo
